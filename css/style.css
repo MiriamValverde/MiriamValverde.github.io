@@ -25,6 +25,7 @@
 html {
     line-height: 1.5em;
     -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -108,7 +109,9 @@ a.logo{
 /* present */
 
 .container-present{
-    padding-top: 5em;
+    padding-top: 10em;
+    margin-bottom: 145px;
+    
 }
 
 .img-present {
@@ -187,6 +190,11 @@ a.logo{
     --n: 4;
 }
 
+.contacto-btn{
+    width: 35%;
+    text-decoration: none;
+}
+
 
 /* main */
 
@@ -204,16 +212,19 @@ a.logo{
 
 }
 
-.yoga-container{
-   
-    background-color: var(--yoga-color);
-    
+.projects > h2.title{
+    color: var(--main-color);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 36px;
+}
 
+.yoga-container{
+    background-color: var(--yoga-color);
 }
 
 .yoga-info, .yoga-img{
     width: 50%;
-    
 }
 
 .yoga-img img{
@@ -254,6 +265,11 @@ a.logo{
     transition: all 0.3s ease;
 }
 
+.yoga-btn a, .nike-btn a, .revista-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .revista-container{
 
     background-color: var(--revista-color);
@@ -285,6 +301,7 @@ a.logo{
 
 .revista-img{
     width: 60%;
+    
 }
 
 .nike-container{
@@ -307,4 +324,81 @@ a.logo{
     border-color: var(--white-color);
     color: var(--nike-color);
     transition: all 0.3s ease;
+}
+
+.nike-info .logo img{
+    margin-bottom: 60px;
+}
+
+
+.nike-info{
+    width: 50%;
+}
+
+.nike-img{
+    width: 50%;
+}
+
+.sobremi-info h3{
+    color: var(--main-color);
+    font-size: 36px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.sobremi-img, .sobremi-info {
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer-container{
+    width: 100%;
+    background-color: var(--black-color);
+    height: 380px;
+    padding: 60px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer .contacto-info{
+    width: 50%;
+}
+.contacto-info h3{
+    color:var(--white-color);
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacto-info p{
+    margin-bottom: 40px;
+}
+
+.contacto-info a{
+    color:var(--white-color);
+    font-size: 24px;
+    align-items: center;
+}
+
+.footer .logos{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.medium-img a,.linkedin-img a   {
+    color: var(--white-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copyright p{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 14px;
 }

@@ -15,18 +15,18 @@
 
       <div class="container nav-container">
         <div class="logo-container">
-          <a href="/" class="logo" >Miriam Valverde</a>
+          <a href="" class="logo" >Miriam Valverde</a>
         </div>
         <div class="menu-container">
           <ul class="menu-list">
             <li>
-              <a href="trabajos">Trabajos</a>
+              <a href="#trabajos">Trabajos</a>
             </li>
             <li>
-              <a href="conoceme">Conóceme</a>
+              <a href="#sobre mí">Sobre mí</a>
             </li>
             <li>
-              <a href="contacto">Contacto</a>
+              <a href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -49,13 +49,13 @@
         <p>
           Me gusta resolver problemas mediante el diseño y crear buenas <br> experiencias de usuario para productos digitales.
         </p>
-        <button class="btn bubble-btn">
+        <a href="mailto:mirivalver142@gmail.com" class="btn bubble-btn contacto-btn">
           Contacto
           <span></span>
           <span></span>
           <span></span>
           <span></span>
-        </button>
+        </a>
       </div>
 
     </div>
@@ -64,7 +64,10 @@
   
   <main>
 
-    <div class="container projects">
+    <div id="trabajos" class="container projects">
+      <h2 class="title">
+        Mis Trabajos
+      </h2>
       
       <div class="project-container yoga-container">
 
@@ -76,7 +79,9 @@
           </div>
           <p>Como ayudar a descansar a niños con trastorno del espectro autista</p>
           <button class="btn bubble-btn yoga-btn">
-            Ver Proyecto
+            <a href="https://mirivalmiri.medium.com/yoga-help-96c88816f17f" target="_blank">
+              Ver Proyecto
+            </a>
           </button>
 
         </div>
@@ -97,7 +102,9 @@
           </div>
        
           <button class="btn bubble-btn nike-btn">
-            Ver Proyecto
+            <a href="https://mirivalmiri.medium.com/challenge-2-wireframing-1d40d207011" target="_blank">
+              Ver Proyecto
+            </a>
           </button>
 
         </div>
@@ -118,7 +125,9 @@
           </div>
   
           <button class="btn bubble-btn revista-btn">
-            Ver Proyecto
+            <a href="">
+              Ver Proyecto
+            </a>
           </button>
 
         </div>
@@ -131,9 +140,69 @@
 
     </div>
 
+    <div id="sobre mí" class="container container-sobremi">
+      <div class="sobremi-img">
+        <img src="images/Fotosobremi.png" alt="">
+      </div>
+      
+      <div class="sobremi-info">
+        <h3>
+          Sobre mí
+        </h3>
+        <p>
+          Soy Miriam, graduada en magisterio, decidí dar un cambio a mi vida y me he convertido en ux/ui designer. 
+  
+          Diseñadora de productos digitales que combina investigación, creación  de prototipos, interacción y diseño visual para transformar problemas complejos en soluciones elegantes, resolviendo así las necesidades de los usuarios.
+  
+        </p>
+      </div>
+     
+    </div>
+
   </main>
 
-  <footer>
+  <footer id="contacto" class="footer-container">
+
+    <div class="footer">
+
+      <div class="contacto-info">
+      <h3>
+        Ponte en contacto conmigo si tienes <br>
+        algún proyecto en mente
+      </h3>
+      <p>
+        <a href="mailto:mirivalver142@gmail.com">
+          mirivalver142@gmail.com
+        </a>
+      </p>
+      <p>
+        <a href="tel:697136269">
+          (+34)697136269
+        </a>
+      </p>
+      </div>
+
+      <div class="logos">
+      <div class=medium-img>
+        <img src="images/medium.svg">
+        <a href="https://mirivalmiri.medium.com/" target="_blank">
+        Medium
+        </a>
+      </div>
+        
+      <div class="linkedin-img">
+        <img src="images/linkedin.svg">
+        <a href="https://www.linkedin.com/in/miriam-valverde-63886a1aa/" target="_blank">
+        Linkedin
+        </a>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © 2021 Miriam Valverde. Todos los derechos reservados </p>
+    </div>
 
   </footer>
 </body>
